@@ -1,0 +1,44 @@
+nav {
+    height: 10rem;
+}
+nav figure {
+    width: 33.333333%;
+}
+nav figure img {
+    cursor: pointer;
+}
+nav ul {
+    width: 33.333333%;
+    list-style-type: none;
+}
+nav ul li {
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #414141;
+    cursor: pointer;
+}
+nav ul .item-selected {
+    font-weight: 500;
+    color: var(--Base-green);
+}
+nav .nav-button-container {
+    width: 33.333333%;
+}
+nav .nav-button-container button {
+    width: 17rem;
+    height: 3.5rem;
+    border: 0.1rem solid var(--Base-green);
+    border-radius: 1rem;
+    color: var(--Base-green);
+    background-color: transparent;
+}
+nav .nav-button-container button a {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: var(--Base-green);
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 500;
+}

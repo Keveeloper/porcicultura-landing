@@ -1,0 +1,37 @@
+:root {
+  --Base-green: #52B254;
+  --Dark-green: #0B280C;
+  --Border-radius: 2rem;
+  --Border-radius-button: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.column-container {
+  padding: 0 7%;
+}
+
+.display-flex-default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.display-flex-justify-end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

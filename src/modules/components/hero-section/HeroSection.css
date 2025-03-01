@@ -1,0 +1,107 @@
+.hero-section-container {
+    position: relative;
+    height: calc(100vh - 10rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-section-container .hs-title:first-child,
+.hero-section-container .hs-subtitle:nth-child(3) {
+    margin-top: 5rem;
+}
+.hero-section-container .hs-title {
+    font-family: Poppins;
+    font-size: 5.2rem;
+    font-weight: 700;
+    color: rgb(10, 10, 10);
+    text-align: center;
+    line-height: 1.2;
+}   
+.hero-section-container .hs-subtitle {
+    font-family: Poppins;
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: #5B5B5B;
+    text-align: center;
+    line-height: 1.2;
+}
+.hero-section-container .hs-cta {
+    margin-top: 5rem;
+    width: 30rem;
+    height: 4.5rem;
+    border: none;
+    border-radius: 1rem;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    background-color: var(--Base-green);
+}
+.hero-section-container .hs-cta img {
+    margin-left: 1rem;
+}
+.hero-section-container .hs-customer-container {
+    position: absolute;
+    width: 77%;
+    display: flex;
+    bottom: -2%;
+}
+.hero-section-container .hs-customer-container .pig {
+    position: absolute;
+    top: -70%;
+    left: -3%;
+    z-index: -1;
+}
+.hero-section-container .hs-customer-container .cow {
+    position: absolute;
+    top: -79%;
+    right: -6.5%;
+    z-index: -1;
+}
+.hero-section-container .hs-customer-container .hs-customer-satisfaction {
+    background-color: var(--Dark-green);
+}
+.hero-section-container .hs-customer-container .hs-customer-efficiency {
+    background-color: var(--Base-green);
+}
+.hero-section-container .hs-customer-container .hs-customer {
+    padding: 3rem;
+    width: 25%;
+    height: 37rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: var(--Border-radius);
+}
+.hero-section-container .hs-customer-container .hs-customer .hs-customer-header-container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-section-container .hs-customer-container .hs-customer .hs-customer-header-container h2 {
+    font-family: Poppins;
+    font-size: 5.2rem;
+    font-weight: 700;
+    color: white; 
+}
+.hero-section-container .hs-customer-container .hs-customer h3 {
+    font-family: Inter;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.hero-section-container .hs-customer-container .hs-customer p {
+    margin: 0 auto;
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+.hero-section-container .farm-animals {
+    position: absolute;
+    bottom: -20%;
+}
