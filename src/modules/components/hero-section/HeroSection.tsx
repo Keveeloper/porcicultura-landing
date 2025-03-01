@@ -29,6 +29,7 @@ const HeroSection = () => {
                 
             </div>
             <img src="/images/farm-animals.svg" alt="Animals in the farm photo" className='farm-animals'/>
+            <p>Hola</p>
         </section>
     )
 }
