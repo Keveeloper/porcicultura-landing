@@ -8,8 +8,11 @@ const OurServices = () => {
                 <div className="special-solutions">
                     <h3>Soluciones especializadas</h3>
                     <p>Ofrecemos soluciones especializadas para el sector agropecuario, brindando acompañamiento integral para optimizar la productividad y garantizar el cumplimiento de normativas.</p>
-                    <button><a href="">Contáctanos</a> →</button>
-                    <img src="/images/chicken.png" alt="chicken photo without background" />
+                    <button>
+                        <a href="">Contáctanos</a> 
+                        <img className="arrow" src="/images/arrow_forward.png" alt="" />
+                    </button>
+                    <img className="chicken" src="/images/chicken.png" alt="chicken photo without background" />
                 </div>
                 <div className="analysis-strategies">
                     <h3>Análisis y estrategias</h3>

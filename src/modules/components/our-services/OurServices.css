@@ -15,14 +15,40 @@
     
 .os-section-container .os-container .special-solutions {
     position: relative;
+    padding: 3rem;
     grid-column: span 3 / span 3;
     grid-row: span 4 / span 4;
     border-radius: var(--Border-radius);
+    display: flex;
+    flex-direction: column;
     background-color: white;
 }
-.os-section-container .os-container .special-solutions img {
+.os-section-container .os-container .special-solutions button {
+    width: 25%;
+    height: 4.5rem;
+    margin-top: auto;
+    color: var(--Base-green);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+.os-section-container .os-container .special-solutions button a {
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--Base-green);
+    display: block;
+}
+.os-section-container .os-container .special-solutions button .arrow {
+    height: 50%;
+}
+.os-section-container .os-container .special-solutions .chicken {
     position: absolute;
-    height: 100%;
+    height: 120%;
+    right: -13%;
+    bottom: 9%;
 }
 
 .os-section-container .os-container .analysis-strategies {
@@ -35,27 +61,30 @@
     background-color: rgb(0, 0, 0);
 }
 .os-section-container .os-container .analysis-strategies h3,
-.os-section-container .os-container .opportunities-improvement h3 {
+.os-section-container .os-container .opportunities-improvement h3,
+.os-section-container .os-container .special-solutions h3 {
     margin-bottom: 1rem;
     font-family: Poppins;
     font-size: 2rem;
     font-weight: 700;
     color: white;
 }
-.os-section-container .os-container .opportunities-improvement h3 {
-    color: black;
-}
 .os-section-container .os-container .analysis-strategies p,
-.os-section-container .os-container .opportunities-improvement p {
+.os-section-container .os-container .opportunities-improvement p,
+.os-section-container .os-container .special-solutions p {
     width: 65%;
     font-family: Inter;
     font-size: 1.6rem;
     font-weight: 300;
     color: white;
 }
-.os-section-container .os-container .opportunities-improvement p {
+.os-section-container .os-container .opportunities-improvement h3,
+.os-section-container .os-container .opportunities-improvement p,
+.os-section-container .os-container .special-solutions h3,
+.os-section-container .os-container .special-solutions p {
     color: black;
 }
+
 .os-section-container .os-container .analysis-strategies img {
     position: absolute;
     height: 160%;
