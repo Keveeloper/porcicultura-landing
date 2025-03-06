@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    align-items: center;
+    padding: 2rem 7%;
+}
+footer .footer-logo-container,
+footer .footer-rights-container,
+footer .footer-social-container {
+    width: 33.33%;
+}
+footer .footer-rights-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer-rights-container p {
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+footer .footer-social-container {
+    display: flex;
+    justify-content: flex-end;
+}
+footer .footer-social-container img {
+    height: 5rem;
+}
