@@ -1,9 +1,13 @@
+import { useContext } from 'react';
 import './OurServices.css';
+import { RefContext } from '../../shared/context/refContext';
 
 const OurServices = () => {
 
+    const { refServices } = useContext(RefContext);
     return (
-        <section className="os-section-container">
+        <section ref={refServices} className="os-section-container">
+            <h2>Nuestros servicios</h2>
             <div className="os-container">
                 <div className="special-solutions">
                     <h3>Soluciones especializadas</h3>
