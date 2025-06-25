@@ -7,7 +7,7 @@ const HeroSection = () => {
             <p className="hs-subtitle">Asesoría especializada en porcicultura, avicultura, piscicultura y ganadería.</p>
             <p className="hs-subtitle">Optimizamos tu producción con soluciones eficientes y sostenibles.</p>
             <button className='hs-cta display-flex-default'>
-                <a href="https://wa.me/+573136060560?text=¡Hola%20Estoy%20interesado%20en%20una%20asesoría%20para%20mi%20producción%20animal.%20¿Me%20puedes%20brindar%20más%20información?" target='_blanck'>Comunícate ahora</a>
+                <a href="https://wa.me/+573123350652?text=¡Hola%20Estoy%20interesado%20en%20una%20asesoría%20para%20mi%20producción%20animal.%20¿Me%20puedes%20brindar%20más%20información?" target='_blanck'>Comunícate ahora</a>
                 <img src="/svg/whatsapp.svg" alt="" />
             </button>
             <div className='hs-customer-container display-flex-space-between'>
