@@ -1,6 +1,6 @@
 import { useCallback, useContext, useEffect, useState } from 'react';
 import './NavComponent.css';
-import { RefContext } from '../../shared/context/refContext';
+import { RefContext } from '../../shared/context/RefContext';
 
 const NavComponent = () => {
 
