@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import './OurServices.css';
-import { RefContext } from '../../shared/context/refContext';
+import { RefContext } from '../../shared/context/RefContext';
 
 const OurServices = () => {
 
