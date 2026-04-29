@@ -6,7 +6,6 @@ const NavComponent = () => {
     const { refServices } = useContext(RefContext);
     const [itemHomeStatus, setItemHomeStatus] = useState<boolean>(true);
     const [itemServicesStatus, setItemServicesStatus] = useState<boolean>(false);
-    const [itemWhoWeAreStatus, setItemWhoWeAreStatus] = useState<boolean>(false);
     const [scrollPosition, setScrollPosition] = useState(0);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -24,7 +23,6 @@ const NavComponent = () => {
             case 'home':
             setItemHomeStatus(true);
             setItemServicesStatus(false);
-            setItemWhoWeAreStatus(false);
             setTimeout(() => {
                 window.scroll({
                     top: 0,
@@ -35,7 +33,6 @@ const NavComponent = () => {
             case 'services':
             setItemServicesStatus(true);
             setItemHomeStatus(false);
-            setItemWhoWeAreStatus(false);
             setTimeout(() => {                    
                 elementServicies = refServices?.current && refServices.current.getBoundingClientRect().top + window.scrollY;
                 
@@ -47,15 +44,9 @@ const NavComponent = () => {
                 }
             }, 250);
             break;
-            case 'whoWeAre':
-            setItemWhoWeAreStatus(true);
-            setItemServicesStatus(false);
-            setItemHomeStatus(false);
-            break;
             default:
             setItemHomeStatus(true);
             setItemServicesStatus(false);
-            setItemWhoWeAreStatus(false);
             break;
         }
     }
