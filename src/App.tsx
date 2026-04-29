@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-     <RefContext.Provider value = {{
+      <RefContext.Provider value={{
         refServices
       }}>
         <NavComponent />
